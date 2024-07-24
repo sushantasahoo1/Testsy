@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding: 1rem 2rem;
+    background-color: rgb(236, 243, 243);
+    border-radius: 1rem;
+    color: rgb(15, 150, 105);
+}
+button{
+    padding: 1rem 2rem;
+    font-size: 12px;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    /* background-color: brown; */
+    color:black
+    transition:background 0.4s;
+}
+button:hover{
+    background-color:rgb(161, 161, 12);
+}
